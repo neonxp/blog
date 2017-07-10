@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Разное on Уголок NeonXP</title>
+    <link>https://neonxp.net/tags/%D1%80%D0%B0%D0%B7%D0%BD%D0%BE%D0%B5/</link>
+    <description>Recent content in Разное on Уголок NeonXP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Александр NeonXP Кирюхин</copyright>
+    <lastBuildDate>Sun, 09 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://neonxp.net/tags/%D1%80%D0%B0%D0%B7%D0%BD%D0%BE%D0%B5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Новая жизнь с Hugo</title>
+      <link>https://neonxp.net/post/move-to-hugo/</link>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://neonxp.net/post/move-to-hugo/</guid>
+      <description>Намучался с Эгеей. Поставил себе Hugo.
+Буду жить с ним.
+Из старого перенес только один пост, который может иметь ценность.</description>
+    </item>
+    
+    <item>
+      <title>Чиним иконку новой раскладки Ильи Бирмана</title>
+      <link>https://neonxp.net/post/chinim-ikonku-novoy-raskladki-ilyi-birmana/</link>
+      <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://neonxp.net/post/chinim-ikonku-novoy-raskladki-ilyi-birmana/</guid>
+      <description>Сегодня вышла версия 3.5 Типографской раскладки Ильи Бирмана. Всё в ней хорошо, но иконка из дорогого сердцу серпа и молота сменилась на какую-то невнятную фигулину похожую на падающую букву «т».
+Как это исправить?
+Элементарно!
+ скачиваем и монтируем файл ilya-birman-typolayout-3.5-mac.dmg копируем оттуда файл «Install Ilya Birman Typography Layout.app» куда-нибудь к себе в домашнюю директорию по правому клику по файлу открываем контекстное меню, в нём выбираем пункт «Показать содержимое пакета»:  Далее переходим в папки «Contents» -&amp;gt; «Resources» -&amp;gt; «Layout», видим там файл «Ilya Birman Typography Layout.</description>
+    </item>
+    
+  </channel>
+</rss>

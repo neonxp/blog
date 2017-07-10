@@ -1,0 +1,22 @@
+{{ partial "header" . }}
+
+<main class='main'>
+  <article lang='{{ .Params.Lang | default .Lang }}' class='entry'>
+  <header class='entry-header'>
+    <div class='entry-info'>
+      <h1 class='entry-title title'>
+        {{- .Title -}}
+      </h1>
+    </div>
+  </header>
+
+    {{ partial "entry/content" . }}
+    {{ partial "entry/footer" . }}
+  </article>
+
+  {{ if not .Site.Params.HideEntryNavigation }}
+    {{ partial "nav/entry_nav" . }}
+  {{ end }}
+</main>
+
+{{ partial "footer" . }}

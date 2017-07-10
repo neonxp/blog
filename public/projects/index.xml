@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Проекты on Уголок NeonXP</title>
+    <link>https://neonxp.net/projects/</link>
+    <description>Recent content in Проекты on Уголок NeonXP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Александр NeonXP Кирюхин</copyright>
+    
+	<atom:link href="https://neonxp.net/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

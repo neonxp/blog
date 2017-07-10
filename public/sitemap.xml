@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://neonxp.net/post/css3-experiments/</loc>
+    <lastmod>2017-07-10T01:29:15+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neonxp.net/post/move-to-hugo/</loc>
+    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neonxp.net/post/chinim-ikonku-novoy-raskladki-ilyi-birmana/</loc>
+    <lastmod>2017-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neonxp.net/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neonxp.net/tags/css/</loc>
+    <lastmod>2017-07-10T01:29:15+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neonxp.net/tags/dev/</loc>
+    <lastmod>2017-07-10T01:29:15+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neonxp.net/post/</loc>
+    <lastmod>2017-07-10T01:29:15+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neonxp.net/tags/</loc>
+    <lastmod>2017-07-10T01:29:15+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neonxp.net/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://neonxp.net/tags/%D1%80%D0%B0%D0%B7%D0%BD%D0%BE%D0%B5/</loc>
+    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neonxp.net/</loc>
+    <lastmod>2017-07-10T01:29:15+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
