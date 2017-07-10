@@ -10,6 +10,11 @@ stages:
   - build
   - deploy
 
+cache:
+  paths:
+  - public
+
+
 build:
   stage: build
   script:
