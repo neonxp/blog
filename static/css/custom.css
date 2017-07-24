@@ -1,0 +1,42 @@
+.telegram-share{
+    position: relative;
+    display: inline-block;
+    height: 25px;
+    padding: 1px 8px 1px 6px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    background-color: #0088cc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-bottom: none !important;
+    font-size: 11px;
+}
+
+.telegram-share span{
+    display: inline-block;
+    margin-top: 3px;
+}
+
+.telegram-share i{
+    display: inline-block;
+    height: 25px;
+    vertical-align: top;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+    background-size: 13px;
+    /* This image is included below :) */
+    background-image: url(/img/telegram-plane.png);
+}
+
+.telegram-share:hover{
+    background-color: #007dbb;
+    color: #fff !important;
+}
+
+.telegram-share:active{
+    background-color: #026698;
+    color: #fff !important;
+}
