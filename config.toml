@@ -69,3 +69,7 @@ defaultContentLanguage = "ru"
     lang = "ru"
     languageName = "Русский"
     weight = 1
+  [languages.en]
+    lang = "en"
+    languageName = "English"
+    weight = 2
