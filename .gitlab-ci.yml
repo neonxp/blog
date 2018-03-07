@@ -24,5 +24,5 @@ deploy:
   stage: deploy
   script:
     - ssh-add <(echo "$STAGING_PRIVATE_KEY")
-    - scp -P22 -r public/* root@78.155.217.73:/var/www/neonxp.net
+    - scp -P22 -r public/* root@185.143.172.56:/var/www/neonxp.net
 
