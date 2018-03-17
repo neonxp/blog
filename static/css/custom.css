@@ -40,3 +40,8 @@
     background-color: #026698;
     color: #fff !important;
 }
+
+.vk_comments {
+  width: 100%;
+  max-width: 600px
+}
