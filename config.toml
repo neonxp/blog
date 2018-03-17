@@ -4,8 +4,6 @@ copyright = "Александр NeonXP Кирюхин"
 
 theme = "minimo"
 
-disqusShortname = "neonxplog"
-googleAnalytics = ""
 Paginate = 5
 
 preserveTaxonomyNames = true
@@ -68,8 +66,8 @@ defaultContentLanguage = "ru"
   [languages.ru]
     lang = "ru"
     languageName = "Русский"
-    weight = 1
+    weight = 2
   [languages.en]
     lang = "en"
     languageName = "English"
-    weight = 2
+    weight = 1
