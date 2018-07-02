@@ -1,41 +1,44 @@
 [by]
-  other = "by"
+  other = " - "
 
 [currentPage]
-  other = "Current page"
+  other = "Текущая страница"
 
 [mainMenu]
-  other = "Main Menu"
+  other = "Главное меню"
 
 [next]
-  other = "Next"
+  other = "Дальше"
 
 [nextPage]
-  other = "Next page"
+  other = "Следующая страница"
 
 [nextPost]
-  other = "Next post"
+  other = "Следующий пост"
 
 [openSomethingInNewTab]
-  other = "Open {{ .Something }} in new tab"
+  other = "Открыть {{ .Something }} в новой вкладке"
 
 [page]
-  other = "Page"
+  other = "Страница"
 
 [previous]
-  other = "Previous"
+  other = "Назад"
 
 [previousPage]
-  other = "Previous page"
+  other = "Предыдущая страница"
 
 [previousPost]
-  other = "Previous post"
+  other = "Предыдущий пост"
 
 [postedOn]
-  other = "Posted on"
+  other = "Добавлено в"
 
 [recentPosts]
-  other = "Recent Posts"
+  other = "Последние записи"
 
 [socialMenu]
-  other = "Social Menu"
+  other = "Социализация"
+
+[allPosts]
+  other = "Все записи"
