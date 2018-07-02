@@ -17,11 +17,13 @@ cache:
 
 build:
   stage: build
+  tags: neonxp
   script:
     - HUGO_ENV=production hugo
 
 deploy:
   stage: deploy
+  tags: neonxp
   script:
     - ssh-add <(echo "$STAGING_PRIVATE_KEY")
     - scp -P22 -r public/* root@185.143.172.56:/var/www/neonxp.net
