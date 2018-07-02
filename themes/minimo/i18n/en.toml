@@ -42,3 +42,6 @@
 
 [allPosts]
   other = "Все записи"
+
+[posts]
+  other = "Записи"
