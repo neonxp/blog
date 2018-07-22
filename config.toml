@@ -2,72 +2,21 @@ baseURL = "https://neonxp.ru"
 title = "Уголок NeonXP"
 copyright = "Александр NeonXP Кирюхин"
 
-theme = "minimo"
+canonifyurls = true
+languagecode = "ru"
+theme = "whiteplain"
 
 Paginate = 5
 
 preserveTaxonomyNames = true
 
 [params]
-  description = "Бложик веб-разработчика"
+  sitename = "Бложик веб-разработчика"
   dateFormat = "02.01.2006"
-  copyrightOwner = "NeonXP"
-  copyrightStartYear = "2017"
-  favicon = "favicon.ico"
-  hideEntryNavigation = false
-  customCSS = ["css/custom.css"]
-  customJS = ["js/custom.js"]
-
-[params.seo]
-  # Title Separator: - – — · • * ⋆ | ~ « » < >
-  titleSeparator = "•"
-
-[params.opengraph]
-  [params.opengraph.facebook]
-    admins = ""
-    appid = ""
-
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-
-[social]
-  facebook = ""
-
-[author]
+[params.author]
   name = "Александр NeonXP Кирюхин"
+  gravatar = "alexander@kiryukhin.su"
+  email = "alexander@kiryukhin.su"
 
-[author.social]
-  codepen = "NeonXP"
-  github = "NeonXP"
-  instagram = "NeonXP"
   twitter = "NeonXP"
-
-[permalinks]
-  page = "/:slug/"
-
-[[menu.main]]
-  name = "Главная"
-  weight = -70
-  identifier = "main"
-  url = "/"
-
-[[menu.main]]
-  name = "Проекты"
-  weight = -60
-  identifier = "projects"
-  url = "/projects"
-
-# Language Configuration
-defaultContentLanguage = "ru"
-
-[languages]
-  # edit this block for your own language
-  [languages.ru]
-    lang = "ru"
-    languageName = "Русский"
-    weight = 2
-  [languages.en]
-    lang = "en"
-    languageName = "English"
-    weight = 1
+  telegram = "NeonXP"
