@@ -1,5 +1,5 @@
 ---
-title: Играем в return true to win
+title: "🛀 Играем в return true to win"
 date: 2018-03-17T03:20:00+03:00
 tags: [ "разное" ]
 ---

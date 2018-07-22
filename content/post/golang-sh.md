@@ -1,8 +1,8 @@
 ---
-title: Go программа как shell скрипт
+title: "⚙️ Go программа как shell скрипт"
 date: 2018-07-02
 slug: go-prog-as-shell
-tags: [ "разное" ]
+tags: [ "dev" ]
 ---
 
 Маленькая заметка.

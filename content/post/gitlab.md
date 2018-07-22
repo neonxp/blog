@@ -1,5 +1,5 @@
 ---
-title: "GitLab pipelines"
+title: "⚙️ GitLab pipelines"
 date: 2017-07-10T14:00:05+03:00
 tags: [ "dev" ]
 ---
