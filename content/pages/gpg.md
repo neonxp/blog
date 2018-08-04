@@ -2,9 +2,7 @@
 title: Мои GPG ключи
 ---
 
-# GPG ключи
-
-## Личный, alexander@kiryukhin.su
+# Личный, alexander@kiryukhin.su
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -265,7 +263,7 @@ tQ5cgATleXeTDKbR6IdE2MY=
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-## Рабочий, a.kiryukhin@corp.mail.ru
+# Рабочий, a.kiryukhin@corp.mail.ru
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
