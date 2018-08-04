@@ -20,3 +20,19 @@ preserveTaxonomyNames = true
 
   twitter = "NeonXP"
   telegram = "NeonXP"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Блог"
+    title = "Блог"
+    url = "/"
+    weight = -110
+
+  [[menu.gpg]]
+    identifier = "gpg"
+    name = "GPG ключи"
+    title = "Мои GPG ключи"
+    url = "/pages/gpg"
+    weight = -100
