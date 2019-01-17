@@ -47,4 +47,11 @@ preserveTaxonomyNames = true
     identifier = "contacts"
     name = "Контакты"
     url = "/pages/contacts"
-    weight = -90
+    weight = -80
+
+  [[menu.main]]
+    identifier = "archive"
+    name = "Архив"
+    title = "Записи из старых блогов"
+    url = "/archive"
+    weight = -70
