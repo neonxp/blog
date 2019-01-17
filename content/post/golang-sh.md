@@ -2,7 +2,7 @@
 title: "⚙️ Go программа как shell скрипт"
 date: 2018-07-02
 slug: go-prog-as-shell
-tags: [ "dev" ]
+tags: [ "dev", "микрозаметка"]
 ---
 
 Маленькая заметка.
