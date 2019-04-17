@@ -45,3 +45,288 @@
   width: 100%;
   max-width: 600px
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #232323;
+        color: #eaeae9;
+    }
+    pre,code {
+        background-color: #131313;
+    }
+    a {
+        color: #64b5f6;
+    }
+    a:hover, a:active {
+        color: #005bbb;
+    }
+    img {
+      opacity: .75;
+      transition: opacity .5s ease-in-out;
+    }
+    img:hover {
+      opacity: 1;
+    }
+    #remark42 .root__copyright, #remark42 .root__copyright-link {
+        color: #aaa !important;
+    }
+    
+    #remark42 .root__pinned-comment {
+        border-bottom-color: #383838 !important;
+    }
+    
+    #remark42 .root__pinned-comments {
+        background: #404040 !important;
+    }
+
+    #remark42  blockquote {
+        background: #393734 !important;
+    }
+    
+    #remark42  table td, #remark42  table th {
+        border: 1px solid #313133 !important;
+    }
+    
+    #remark42  table tr {
+        background-color: #22201c !important;
+    }
+    
+    #remark42  table tr:nth-child(2n) {
+        background-color: #393734 !important;
+    }
+    
+    #remark42  pre {
+        background-color: #393734 !important;
+    }
+    
+    #remark42  hr {
+        border-color: #2d2d2c !important;
+    }
+
+    #remark42 {
+        border-color: #333 !important;
+        background: #22201c !important;
+    }
+    
+    #remark42 .input__actions {
+        background: #333 !important;
+    }
+    
+    #remark42 .input__button_type_preview {
+        background: #22201c !important;
+        color: #ddd !important;
+    }
+    
+    #remark42 .input__button_type_send {
+        color: #ddd !important;
+    }
+    
+    #remark42 .input__error {
+        border-top: 8px solid #333 !important;
+        background: #672323 !important;
+        color: #f98989 !important;
+    }
+    
+    #remark42 .input__field {
+        background: #22201c !important;
+        color: #eee !important;
+    }
+    
+    #remark42 .input__preview {
+        border-color: #eee !important;
+        background: #fff !important;
+        color: #333 !important;
+    }
+    
+    #remark42 .input__preview-wrapper {
+        background: #eee !important;
+    }
+    
+    #remark42 .comment_view_admin .comment__username, #remark42 .comment_view_admin .comment__username,
+    #remark42 .comment_view_admin.comment_theme_light .comment__username {
+        color: #0e7e9d !important;
+    }
+
+    #remark42 .comment_view_preview, #remark42 .comment_view_preview,
+    #remark42 .comment_view_preview.comment_theme_light {
+        font-size: 14px;
+        padding-bottom: 0
+    }
+
+    #remark42 .comment_view_preview .comment__title, #remark42 .comment_view_preview .comment__title,
+    #remark42 .comment_view_preview.comment_theme_light .comment__title {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color: #0aa !important;
+    }
+
+    #remark42 .comment_view_preview .comment__title-link, #remark42 .comment_view_preview .comment__title-link,
+    #remark42 .comment_view_preview.comment_theme_light .comment__title-link {
+        color: #0aa;
+        text-decoration: none
+    }
+
+    #remark42 .comment_view_preview .comment__title-link:hover, #remark42 .comment_view_preview .comment__title-link:hover,
+    #remark42 .comment_view_preview.comment_theme_light .comment__title-link:hover {
+        opacity: .75
+    }
+
+    #remark42 .comment_view_preview .comment__info, #remark42 .comment_view_preview .comment__info,
+    #remark42 .comment_view_preview.comment_theme_light .comment__info {
+        display: inline;
+        padding-right: 0;
+        font-weight: 700;
+        color: #777 !important;
+    }
+
+    #remark42 .comment_view_preview .comment__info::after, #remark42 .comment_view_preview .comment__info::after,
+    #remark42 .comment_view_preview.comment_theme_light .comment__info::after {
+        content: ' '
+    }
+
+    #remark42 .comment_view_preview .comment__username, #remark42 .comment_view_preview .comment__username,
+    #remark42 .comment_view_preview.comment_theme_light .comment__username {
+        color: #0aa
+    }
+
+    #remark42 .comment_view_preview .comment__text, #remark42 .comment_view_preview .comment__text,
+    #remark42 .comment_view_preview.comment_theme_light .comment__text {
+        display: inline;
+        vertical-align: bottom
+    }
+
+    #remark42 .comment_view_user.comment_collapsed .comment__actions,
+    #remark42 .comment_view_user.comment_collapsed .comment__text {
+        display: block !important;
+    }
+
+    #remark42  {
+        border-bottom: 1px solid #333 !important;
+        color: #f3f3f3 !important;
+    }
+
+    #remark42  .comment__action_type_collapse {
+        border-color: #555 !important;
+        color: #555 !important;
+    }
+
+    #remark42  .comment__action_type_collapse.comment__action_selected {
+        background: #555 !important;
+        color: #22201c !important;
+    }
+
+    #remark42  .comment__action_type_delete, #remark42  .comment__action_type_edit {
+        color: #6a6a6a !important;
+    }
+
+    #remark42  .comment__action + .comment__controls::before,
+    #remark42  .comment__edit-timer + .comment__controls::before {
+        color: #eee !important;
+    }
+
+    #remark42  .comment__control_view_inactive,
+    #remark42  .comment__control_view_inactive:focus,
+    #remark42  .comment__control_view_inactive:hover {
+        color: #999 !important;
+    }
+
+    #remark42  .comment__edit-timer {
+        color: #a6a6a6 !important;
+    }
+
+    #remark42  .comment__score {
+        color: #c4c4c4 !important;
+    }
+
+    #remark42  .comment__score_view_negative {
+        color: #cc0606 !important;
+    }
+
+    #remark42  .comment__score_view_positive {
+        color: #259e06 !important;
+    }
+
+    #remark42  .comment__status, #remark42  .comment__time {
+        color: #999 !important;
+    }
+
+    #remark42  .comment__user-id {
+        color: #888 !important;
+    }
+
+    #remark42  .comment__username, #remark42 .comment_view_preview .comment__info::after {
+        color: #777 !important;
+    }
+
+    #remark42 .comment_editing .comment__input,
+    #remark42 .comment_replying .comment__input {
+        border-color: #333 !important;
+    }
+
+    @media (-moz-touch-enabled:1) and (max-width:768px), (pointer:coarse) and (max-width:768px) {
+        #remark42 .comment_editing, #remark42 .comment_replying {
+            border-color: #333 !important;
+        }
+    }
+
+    #remark42  .dropdown__title {
+        color: #ddd !important;
+    }
+
+    #remark42  .dropdown__content {
+        background-color: #22201c !important;
+    }
+    #remark42 .auth-panel__user-id {
+        color: #eee !important;
+    }
+
+    #remark42  .blocked-users__action::before {
+        color: #ddd !important;
+    }
+
+    #remark42 .blocked-users__user-id {
+        color: #eee !important;
+    }
+
+    #remark42 {
+        color: #ddd !important;
+    }
+
+    #remark42 .root__copyright, #remark42 .root__copyright-link {
+        color: #aaa !important;
+    }
+
+    #remark42 .root__pinned-comment {
+        border-bottom-color: #383838 !important;
+    }
+
+    #remark42 .root__pinned-comments {
+        background: #404040 !important;
+    }
+
+
+    #remark42  blockquote {
+        background: #393734 !important;
+    }
+
+    #remark42  table td, #remark42  table th {
+        border: 1px solid #313133 !important;
+    }
+
+    #remark42  table tr {
+        background-color: #22201c !important;
+    }
+
+    #remark42  table tr:nth-child(2n) {
+        background-color: #393734 !important;
+    }
+
+    #remark42  pre {
+        background-color: #393734 !important;
+    }
+
+    #remark42  hr {
+        border-color: #2d2d2c !important;
+    }
+}

@@ -1,28 +1,19 @@
-image: felicianotech/docker-hugo:latest
+image: jguyomard/hugo-builder:latest
+
+# Note: You have to define SSH_PRIVATE_KEY, SSH_PORT and SSH_HOSTDEST with gitlab variables.
 
 before_script:
-  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+  - BUILD_DIR="/tmp/build"
+
+  # Run ssh-agent and add SSH key stored in SSH_PRIVATE_KEY variable
+  - eval `ssh-agent -s`
+  - echo "$SSH_PRIVATE_KEY" | ssh-add /dev/stdin
+  # For Docker builds disable host key checking - http://doc.gitlab.com/ce/ci/ssh_keys/README.html
   - mkdir -p ~/.ssh
-  - eval $(ssh-agent -s)
-  - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
-
-stages:
-  - build
-  - deploy
-
-cache:
-  paths:
-  - public
-
-
-build:
-  stage: build
-  script:
-    - HUGO_ENV=production hugo
+  - '[[ -f /.dockerinit ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
 
 deploy:
-  stage: deploy
   script:
-    - ssh-add <(echo "$STAGING_PRIVATE_KEY")
-    - scp -P22 -r public/* root@185.143.172.56:/var/www/neonxp.net
-
+    - hugo --destination "$BUILD_DIR"
+    - minify -r -o $BUILD_DIR/ $BUILD_DIR/
+    - rsync -rv -e "ssh -p $SSH_PORT" "$BUILD_DIR"/ "$SSH_HOSTDEST" --checksum
