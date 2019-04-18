@@ -16,7 +16,7 @@ preserveTaxonomyNames = true
 [params.author]
   name = "Александр NeonXP Кирюхин"
   gravatar = "alexander@kiryukhin.su"
-  email = "alexander@kiryukhin.su"
+  email = "a.kiryukhin@mail.ru"
 
   twitter = "NeonXP"
   telegram = "NeonXP"
@@ -29,13 +29,6 @@ preserveTaxonomyNames = true
     title = "Блог"
     url = "/"
     weight = -110
-
-  [[menu.main]]
-    identifier = "gpg"
-    name = "GPG ключи"
-    title = "Мои GPG ключи"
-    url = "/pages/gpg"
-    weight = -100
 
   [[menu.main]]
     identifier = "github"
