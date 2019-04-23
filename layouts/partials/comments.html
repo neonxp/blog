@@ -1,18 +1,8 @@
 <div class="article">
-    <h2 class="article-title">Комменты</h2>
-    <hr class="article-title-bottom" />
-    <div id="remark42" class="article-meta"></div>
-    <script>
-        var remark_config = {
-          site_id: 'remark',
-          max_shown_comments: 10, // optional param; if it isn't defined default value (15) will be used
-          theme: 'light', // optional param; if it isn't defined default value ('light') will be used
-        };
-      
-        (function() {
-          var d = document, s = d.createElement('script');
-          s.src = 'https://comments.neonxp.ru/web/embed.js'; // prepends this address with domain where remark42 is placed
-          (d.head || d.body).appendChild(s);
-        })();
-      </script>
+  <div id="vk_comments"></div>
+  <script type="text/javascript">
+    window.onload = function () {
+      VK.Widgets.Comments("vk_comments", { limit: 10, pageUrl: "{{ .URL | absURL }}" }, "{{ .URL | absURL }}");
+    }
+  </script>
 </div>

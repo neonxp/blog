@@ -1,7 +1,8 @@
 <div class="article">
-  <h2 class="article-title">Поделиться</h2>
-  <hr class="article-title-bottom" />
-  <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
-  <script src="//yastatic.net/share2/share.js"></script>
-  <div class="article-meta ya-share2" data-services="collections,vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,skype,telegram"></div>
+  <!-- <h2 class="article-title">Социальщина</h2> -->
+  <!-- <hr class="article-title-bottom" /> -->
+  <div id="vk_like"></div>
+  <script type="text/javascript">
+    VK.Widgets.Like('vk_like', {pageUrl: "{{ .URL | absURL }}"}, "{{ .URL | absURL }}");
+  </script>
 </div>
